@@ -81,6 +81,10 @@ To maintain clarity, REPs must follow this format (REP-1 is an exception):
 
 ## Reference
 
+This REP is inspired by the following:
+
 - Bitcoin Improvement Proposals: [BIPs](https://github.com/bitcoin/bips)
 - Ethereum Improvement Proposals: [EIPs](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1.md)
 - BNB Chain Evolution Proposal. [BEPs](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP1.md)
+
+In many places text was simply copied and modified (yes, including this sentence).
