@@ -83,7 +83,7 @@ To maintain clarity, REPs must follow this format (REP-1 is an exception):
 
 ## REP Editor
 
-For the current REP Editors, see [REP Editors](https://github.com/orgs/RSS3-Network/teams/rep-editors). They are
+For the current REP Editors, see [REP Editors](https://github.com/orgs/RSS3-Network/teams/rep-editors).
 
 In addition, there are specialized Editorial Teams:
 
