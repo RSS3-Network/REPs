@@ -15,11 +15,13 @@ Created: 19 Jan 2024
 - [REP Types](#rep-types)
 - [REP Workflow](#rep-workflow)
 - [REP Format](#rep-format)
+- [REP Editor](#rep-editor)
+- [REP Editor Responsibilities](#rep-editor-responsibilities)
 - [Reference](#reference)
 
 ## What is an REP?
 
-REP stands for RSS3 Evolution Proposal. Each REP is a document providing information to the RSS3 Community, with regards to all components of the RSS3 Network, such as RSS3 Data Sublayer (DSL) and RSS3 Value Sublayer (VSL). The REP should offer a concise technical specification of the feature or improvement and its rationale. Every REP proposer is responsible for building consensus within the Community and documenting any dissenting opinions. Each REP is identified by a unique index number.
+REP stands for RSS3 Evolution Proposal. Each REP is a document providing information to the RSS3 Community, with regards to all components of the RSS3 Network, such as RSS3 Data Sublayer (DSL) and RSS3 Value Sublayer (VSL). The REP should offer a concise technical specification of the feature or improvement and its rationale. Every REP proposer is responsible for building consensus within the Community and documenting any dissenting opinions. Each REP is identified by a unique index number by the REP Editors.
 
 ## REP Rationale
 
@@ -45,7 +47,7 @@ REPs have the following states:
 - **Idea**: Before drafting an REP, discuss your idea with the Community to gauge interest. You can post your idea in the [RSS3 forum](https://forum.rss3.io/) or visit the [rep-discussion channel on Discord](https://link.rss3.io/discord) to engage the Community.
 - **Draft**: After gaining support for your idea, draft a document following the REP format and submit a pull request (PR) to this repository. Once the PR is reviewed and merged by REP Editors, it becomes an official REP. Continue advancing your REP by updating it with new PRs.
 - **Review**: When the REP enters `Review`, the Community will review it.
-- **Candidate**: The REP enters `Candidate` if `Review` is passed.
+- **Candidate**: The REP enters `Candidate` if `Review` is passed, ready to be implemented.
 - **Final**: The REP is considered `Final` when it has been implemented in the RSS3 Network. A block height on the VSL will be provided when necessary.
 
 Some exceptional states include:
@@ -79,8 +81,31 @@ To maintain clarity, REPs must follow this format (REP-1 is an exception):
 - Reference Implementations (optional): Necessary before the REP reaches `Final`. If implementation is not needed, this can be omitted.
 - License: All REPs are automatically licensed under CC0, you do not need to include a license in your REP.
 
+## REP Editor
+
+For the current REP Editors, see [REP Editors](https://github.com/orgs/RSS3-Network/teams/rep-editors).
+
+In addition, there are specialized Editorial Teams:
+
+- [DSL Editors](https://github.com/orgs/RSS3-Network/teams/dsl-editors) specializing in DSL related REPs
+- [VSL Editors](https://github.com/orgs/RSS3-Network/teams/vsl-editors) specializing in VSL related REPs
+
+## REP Editor Responsibilities
+
+The REP Editors are responsible for the overall management of the REP process, including the following:
+
+- Initial PR review
+- Assign REP numbers
+- Update REP status
+- Merge PRs
+- Update README
+
 ## Reference
+
+This REP is inspired by the following:
 
 - Bitcoin Improvement Proposals: [BIPs](https://github.com/bitcoin/bips)
 - Ethereum Improvement Proposals: [EIPs](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1.md)
 - BNB Chain Evolution Proposal. [BEPs](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP1.md)
+
+In many places text was simply copied and modified (yes, including this sentence).
