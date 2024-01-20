@@ -6,9 +6,9 @@ REP stands for RSS3 Evolution Proposal, a detailed documentation proposed by the
 
 This repository tracks all REPs proposed by the RSS3 Community.
 
-| REP Number               | Title                  | Proposer(s)   | Type    | Status |
-| ------------------------ | ---------------------- | ------------- | ------- | ------ |
-| [REP-1](./REPs/REP-1.md) | Purpose and Guidelines | henry@rss3.io | Process | Living |
+| REP Number               | Title                  | Proposer(s)     | Type    | Status |
+| ------------------------ | ---------------------- | --------------- | ------- | ------ |
+| [REP-1](./REPs/REP-1.md) | Purpose and Guidelines | <henry@rss3.io> | Process | Living |
 
 ## License
 
