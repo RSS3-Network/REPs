@@ -15,7 +15,8 @@ Created: 19 Jan 2024
 - [REP Types](#rep-types)
 - [REP Workflow](#rep-workflow)
 - [REP Format](#rep-format)
-- [REP Editors](#rep-editors)
+- [REP Editor](#rep-editor)
+- [REP Editor Responsibilities](#rep-editor-responsibilities)
 - [Reference](#reference)
 
 ## What is an REP?
@@ -82,9 +83,10 @@ To maintain clarity, REPs must follow this format (REP-1 is an exception):
 
 ## REP Editor
 
-For the current REP Editors, see [REP Editors](https://github.com/orgs/RSS3-Network/teams/rep-editors). They are 
+For the current REP Editors, see [REP Editors](https://github.com/orgs/RSS3-Network/teams/rep-editors). They are
 
 In addition, there are specialized Editorial Teams:
+
 - [DSL Editors](https://github.com/orgs/RSS3-Network/teams/dsl-editors) specializing in DSL related REPs
 - [VSL Editors](https://github.com/orgs/RSS3-Network/teams/vsl-editors) specializing in VSL related REPs
 
@@ -95,7 +97,7 @@ The REP Editors are responsible for the overall management of the REP process, i
 - Initial PR review
 - Assign REP numbers
 - Update REP status
-- Merge PRs 
+- Merge PRs
 - Update README
 
 ## Reference
