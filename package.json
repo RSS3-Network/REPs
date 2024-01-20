@@ -7,8 +7,8 @@
   "author": "",
   "type": "module",
   "scripts": {
-    "lint": "remark */*.md --quiet --frail",
-    "format": "remark */*.md --output"
+    "lint": "remark -i .gitignore . --quiet --frail",
+    "format": "remark -i .gitignore . --output"
   },
   "remarkConfig": {
     "settings": {
@@ -20,7 +20,7 @@
       [
         "remark-gfm",
         {
-          "tablePipeAlign": false
+          "tablePipeAlign": true
         }
       ],
       "remark-preset-lint-consistent",
