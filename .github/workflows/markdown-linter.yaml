@@ -10,8 +10,12 @@ jobs:
     name: run remark lint
     steps:
       - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
       - uses: actions/setup-node@v4
         with:
           node-version-file: ".node-version"
+          cache: 'pnpm'
       - run: pnpm install
       - run: pnpm run lint
