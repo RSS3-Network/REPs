@@ -16,6 +16,9 @@ Created: 19 Jan 2024
 - [REP Workflow](#rep-workflow)
 - [REP Format](#rep-format)
 - [REP Editor](#rep-editor)
+  - [General Editorial Team](#general-editorial-team)
+  - [DSL Editorial Team](#dsl-editorial-team)
+  - [VSL Editorial Team](#vsl-editorial-team)
 - [REP Editor Responsibilities](#rep-editor-responsibilities)
 - [Reference](#reference)
 
@@ -83,18 +86,40 @@ To maintain clarity, REPs must follow this format (REP-1 is an exception):
 
 ## REP Editor
 
-For the current REP Editors, see [REP Editors](https://github.com/orgs/RSS3-Network/teams/rep-editors).
+The REP Editors are responsible for managing the REP process. We encourage community members to apply for the REP Editor position. If you are interested, please contact the current REP Editors.
 
-In addition, there are specialized Editorial Teams:
+### General Editorial Team
 
-- [DSL Editors](https://github.com/orgs/RSS3-Network/teams/dsl-editors) specializing in DSL related REPs
-- [VSL Editors](https://github.com/orgs/RSS3-Network/teams/vsl-editors) specializing in VSL related REPs
+The General Editorial Team is responsible for reviewing the initial PRs and for inviting specialized Editorial Teams when necessary.
+
+The current Team members are:
+
+- Anni ([**@azuic**](https://github.com/azuic))
+- DIYgod ([**@DIYgod**](https://github.com/DIYgod))
+- Henry ([**@HenryQW**](https://github.com/HenryQW))
+
+### DSL Editorial Team
+
+The DSL Editorial Team is highly specialized in the DSL and is responsible for reviewing DSL related PRs.
+
+The current Team members are:
+
+- Henry ([**@HenryQW**](https://github.com/HenryQW))
+- Polebug ([**@polebug**](https://github.com/polebug))
+
+### VSL Editorial Team
+
+The VSL Editorial Team is highly specialized in the DSL and is responsible for reviewing VSL related PRs.
+The current Team members are:
+
+- Albert ([**@iavl**](https://github.com/iavl))
+- Atlas ([**@Atlasoin**](https://github.com/Atlasoin))
 
 ## REP Editor Responsibilities
 
 The REP Editors are responsible for the overall management of the REP process, including the following:
 
-- Initial PR review
+- Reivew initial PRs
 - Assign REP numbers
 - Update REP status
 - Merge PRs
