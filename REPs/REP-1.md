@@ -38,7 +38,7 @@ There are four types of REP:
 
 ## REP Workflow
 
-![REP workflow](figures/REP-workflow.png)
+![REP workflow](REP-1/REP-workflow.png)
 
 *Figure 1: REP workflow*
 
