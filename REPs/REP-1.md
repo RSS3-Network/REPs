@@ -110,6 +110,7 @@ The current Team members are:
 ### VSL Editorial Team
 
 The VSL Editorial Team is highly specialized in the VSL and is responsible for reviewing related PRs.
+
 The current Team members are:
 
 - Albert ([**@iavl**](https://github.com/iavl))
