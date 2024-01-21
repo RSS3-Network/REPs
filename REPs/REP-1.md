@@ -100,7 +100,7 @@ The current Team members are:
 
 ### DSL Editorial Team
 
-The DSL Editorial Team is highly specialized in the DSL and is responsible for reviewing DSL related PRs.
+The DSL Editorial Team is highly specialized in the DSL and is responsible for reviewing related PRs.
 
 The current Team members are:
 
@@ -109,7 +109,7 @@ The current Team members are:
 
 ### VSL Editorial Team
 
-The VSL Editorial Team is highly specialized in the DSL and is responsible for reviewing VSL related PRs.
+The VSL Editorial Team is highly specialized in the VSL and is responsible for reviewing related PRs.
 The current Team members are:
 
 - Albert ([**@iavl**](https://github.com/iavl))
