@@ -11,6 +11,8 @@ Discussions: <https://forum.rss3.io/t/how-to-start-an-rep/39>
 
 # REP-Template: REP Template
 
+## Table of Contents
+
 ## Abstract
 
 ### ***This is not an official REP***
