@@ -5,7 +5,7 @@ Status: Draft
 Type: Protocol
 Created: 22 Jan 2024
 Author(s): henry@rss3.io
-Description: This REP describes the process of upgrading the RSS3 Protocol to a new version.
+Description: This REP describes the process of upgrading the RSS3 Protocol v0.4.0-rc.1 to v1.0.0.
 Discussions: <https://forum.rss3.io/t/rss3-protocol-upgrade/65>
 ```
 
