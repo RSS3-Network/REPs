@@ -24,7 +24,7 @@ Created: 19 Jan 2024
 
 ## What is an REP?
 
-REP stands for RSS3 Evolution Proposal. Each REP is a document providing information to the RSS3 Community, with regards to all components of the RSS3 Network, such as RSS3 Data Sublayer (DSL) and RSS3 Value Sublayer (VSL). The REP should offer a concise technical specification of the feature or improvement and its rationale. Every REP proposer is responsible for building consensus within the Community and documenting any dissenting opinions. Each REP is identified by a unique index number by the REP Editors.
+REP stands for RSS3 Evolution Proposal. Each REP is a document providing information to the RSS3 Community, with regards to all components of the RSS3 Network, such as RSS3 Data Sublayer (DSL) and RSS3 Value Sublayer (VSL). The REP should offer a concise technical specification of the feature or improvement and its rationale. Every REP proposer is responsible for building consensus within the Community and documenting any dissenting opinions. Each REP is identified by a unique index number.
 
 ## REP Rationale
 
@@ -43,7 +43,7 @@ There are four types of REP:
 
 ![REP workflow](REP-1/REP-workflow.png)
 
-*Figure 1: REP workflow*
+_Figure 1: REP workflow_
 
 REPs have the following states:
 
@@ -118,13 +118,21 @@ The current Team members are:
 
 ## REP Editor Responsibilities
 
-The REP Editors are responsible for the overall management of the REP process, including the following:
+The REP Editors are responsible for the overall management of the REP process, including the following work:
 
-- Reivew initial PRs
-- Assign REP numbers
-- Update REP status
-- Merge PRs
-- Update README
+1. Check the Soundness: evaluate each REP to ensure it is practical, relevant, and free from any objectionable content. Should you find issues, reject the proposal with a detailed explanation, seeking input from fellow Editors as needed.
+2. Check the REP format: check whether the REP follows the [REP Format](#rep-format).
+3. Check the REP number: check whether the REP number is aligned with the PR number.
+4. Check the REP type: check whether the REP type is aligned with the [REP Types](#rep-types).
+5. Check the REP status: check whether the REP status is consistent with the steps outlined in the [REP Workflow](#rep-workflow).
+   1. Every REP must begin in `Draft`
+   2. Status progresses only 1 step per PR.
+   3. Prior to advancing into `Candidate`, ensure all dissenting opinions have been properly addressed.
+   4. Advancement to `Final` requires approval from at least two REP Editors.
+6. Check the [List of REPs](https://github.com/RSS3-Network/REPs/blob/main/README.md#list-of-reps) is updated.
+7. Check the PR title:
+   1. The initial PR title should be formatted as `REP-{number}: {REP title}`.
+   2. Subsequent PR titles should indicate changes, formatted as `REP-{number}: {what's changed}`.
 
 ## Reference
 
