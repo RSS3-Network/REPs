@@ -36,7 +36,7 @@ There are four types of REP:
 
 - **Core**: A Core REP describes functional changes to the RSS3 Network, such as changes to Sublayer parameters, DSL routing algorithm and epoch length. It will affect the implementation of the RSS3 Network.
 - **Protocol**: A Protocol REP changes the RSS3 Protocol, affecting how Open Information is structured and delivered to the end users on the DSL. It will affect the implementation of the RSS3 Network.
-- **Process**: A Process REP changes the workflow or governance process of the RSS3 network, like this REP itself. It will not affect the implementation of the RSS3 Network.
+- **Process**: A Process REP changes the workflow or governance process of the RSS3 Network, like this REP itself. It will not affect the implementation of the RSS3 Network.
 - **Informational**: An Informational REP clarifies concepts within the RSS3 Network. It will not affect the implementation of the RSS3 Network.
 
 ## REP Workflow
