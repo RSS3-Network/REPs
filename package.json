@@ -8,7 +8,7 @@
   "type": "module",
   "scripts": {
     "lint": "remark -i .gitignore . --quiet --frail",
-    "format": "git diff --name-only -- '*.md' | while read file; do remark \"$file\" --output \"$file\"; done"
+    "format": "git ls-files --modified --others --exclude-standard '*.md' | while read file; do remark \"$file\" --output \"$file\"; done"
   },
   "remarkConfig": {
     "settings": {
