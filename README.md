@@ -6,10 +6,10 @@ REP stands for RSS3 Evolution Proposal, a detailed documentation proposed by the
 
 This repository tracks all REPs proposed by the RSS3 Community.
 
-| REP Number                 | Title                  | Proposer(s)     | Type     | Status |
-| -------------------------- | ---------------------- | --------------- | -------- | ------ |
-| [REP-1](./REPs/REP-1.md)   | Purpose and Guidelines | <henry@rss3.io> | Process  | Living |
-| [REP-11](./REPs/REP-11.md) | Protocol Upgrade       | <henry@rss3.io> | Protocol | Draft  |
+| REP Number                 | Title                  | Proposer(s)                                                                                                                                                                                                                                                                                             | Type     | Status |
+| -------------------------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------ |
+| [REP-1](./REPs/REP-1.md)   | Purpose and Guidelines | <henry@rss3.io>                                                                                                                                                                                                                                                                                         | Process  | Living |
+| [REP-11](./REPs/REP-11.md) | Protocol Upgrade       | [BruceXC](mailto:xichang1510@gmail.com), [HenryQW](mailto:hi@henry.wang), [KallyDev](mailto:kallydev@gmail.com), [Nya Candy](mailto:github@candinya.com), [polebug](mailto:polebugfly@gmail.com), [pseudoyu](mailto:pseudoyu@connect.hku.hk), [Thomas](mailto:73341653+naaive@users.noreply.github.com) | Protocol | Review |
 
 ## License
 

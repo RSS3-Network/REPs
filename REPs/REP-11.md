@@ -33,8 +33,6 @@ Upgrading the RSS3 Protocol with UMS means that the Protocol will see its first 
 
 See [RSS3 Protocol v1.0.0](https://github.com/RSS3-Network/Protocol/blob/main/versions/v1.0.0/main.adoc) for the full specification.
 
-Note: the specification is a work in progress due to the complexity of the Protocol.
-
 ## Rationale
 
 The RSS3 Protocol v0.4.0-rc.1 was a file-based solution for storing and circulating Open Information.
