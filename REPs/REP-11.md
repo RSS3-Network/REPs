@@ -1,10 +1,10 @@
 ```
 REP: REP-11
 Title: Protocol Upgrade
-Status: Draft
+Status: Review
 Type: Protocol
 Created: 22 Jan 2024
-Author(s): henry@rss3.io
+Author(s): BruceXC <xichang1510@gmail.com>, HenryQW <hi@henry.wang>, KallyDev <kallydev@gmail.com>, Nya Candy <github@candinya.com>, polebug <polebugfly@gmail.com>, pseudoyu <pseudoyu@connect.hku.hk>, Thomas <73341653+naaive@users.noreply.github.com>
 Description: This REP describes the process of upgrading the RSS3 Protocol v0.4.0-rc.1 to v1.0.0.
 Discussions: <https://forum.rss3.io/t/rss3-protocol-upgrade/65>
 ```
@@ -31,9 +31,7 @@ Upgrading the RSS3 Protocol with UMS means that the Protocol will see its first 
 
 ## Specification
 
-See [RSS3 Protocol v1.0.0](https://github.com/RSS3-Network/Protocol/blob/v1.0.0/versions/v1.0.0/main.adoc) for the full specification.
-
-Note: the specification is a work in progress due to the complexity of the Protocol.
+See [RSS3 Protocol v1.0.0](https://github.com/RSS3-Network/Protocol/blob/main/versions/v1.0.0/main.adoc) for the full specification.
 
 ## Rationale
 
