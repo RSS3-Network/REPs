@@ -17,6 +17,7 @@ Discussions: <https://forum.rss3.io/t/rss3-protocol-upgrade/65>
 - [Motivation](#motivation)
 - [Specification](#specification)
 - [Rationale](#rationale)
+- [Reference Implementations](#reference-implementations)
 
 ## Abstract
 
@@ -55,3 +56,9 @@ The UMS addresses all the problems of the RSS3 Protocol v0.4.0-rc.1:
 2. Performance - the query speed is lightning fast
 3. Storage Cost - the storage cost is much lower
 4. Interoperability - it provides a set of APIs for developers to build on top of the Protocol
+
+## Reference Implementations
+
+1. Protocol Specification: <https://github.com/RSS3-Network/Protocol/blob/main/versions/v1.0.0/main.adoc>
+2. Protocol-Go - A Golang implementation: <https://github.com/RSS3-Network/Protocol-Go>
+3. Node implementation with Protocol-Go <https://github.com/RSS3-Network/Node/blob/7c69c9fbd05e353c6fd5ecabf6657a772bff6282/go.mod#L58>
