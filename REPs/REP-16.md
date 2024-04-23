@@ -32,7 +32,7 @@ The proposed adjustment will simplify the taxation formula, making the computati
 Current formula as [stated in the Whitepaper](https://github.com/RSS3-Network/Whitepaper/blob/d8a86712cad0c88846c659577e0848b422b90f14/current/sections/tokenomics/network_rewards.tex#L77-L83):
 
 $$
-T_{N,\epsilon} = \min(D_{N,\epsilon} * c_{\epsilon}, (R_{S|N,\epsilon} + R_{O|N,\epsilon}) * T_{N,\epsilon})
+T_{N,\epsilon} = \min(D_{N,\epsilon} * c_{\epsilon}, (R_{S|N,\epsilon} + R_{O|N,\epsilon}) * τ_{N,\epsilon})
 $$
 
 Current [description of the formula](https://github.com/RSS3-Network/Whitepaper/blob/d8a86712cad0c88846c659577e0848b422b90f14/current/sections/tokenomics/network_rewards.tex#L75):
@@ -46,7 +46,7 @@ The amount of tax collectible is capped at a maximum of $c$ times the amount of 
 Proposed new taxation formula:
 
 $$
-T_{N,\epsilon} = \min(P_{O|N,\epsilon} * c_{\epsilon}, (R_{S|N,\epsilon} + R_{O|N,\epsilon}) * T_{N,\epsilon})
+T_{N,\epsilon} = \min(P_{O|N,\epsilon} * c_{\epsilon}, (R_{S|N,\epsilon} + R_{O|N,\epsilon}) * τ_{N,\epsilon})
 $$
 
 Proposed new description of the formula:
@@ -71,6 +71,18 @@ Proposed new tokenomics intepretation:
 $$
 P_{o} * 25 \geq T_{N,\epsilon} \quad \text{where} \quad D_{N} \geq 10,000
 $$
+
+To improve the clarity on the tax rate for all Public Good Nodes, The current description of:
+
+```
+For the Public Good Pool, the tax rate is set by the Network to collect donations to support Public Good initiatives and clauses.
+```
+
+is proposed to be updated to:
+
+```
+The tax rate for all Public Good Nodes is determined by the Network. These funds are deposited into the Public Good Pool and are allocated to support various Public Good initiatives and clauses. The allocations of these resources will be collectively decided by all Network participants.
+```
 
 ## Rationale
 
