@@ -1,7 +1,7 @@
 ```
 REP: REP-11
 Title: Protocol Upgrade
-Status: Candidate
+Status: Final
 Type: Protocol
 Created: 22 Jan 2024
 Author(s): BruceXC <xichang1510@gmail.com>, HenryQW <hi@henry.wang>, KallyDev <kallydev@gmail.com>, Nya Candy <github@candinya.com>, polebug <polebugfly@gmail.com>, pseudoyu <pseudoyu@connect.hku.hk>, Thomas <73341653+naaive@users.noreply.github.com>
