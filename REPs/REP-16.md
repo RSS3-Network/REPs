@@ -1,7 +1,7 @@
 ```
 REP: REP-16
 Title: Staking Rewards Taxation Adjustment
-Status: Draft
+Status: Review
 Type: Core
 Created: 21 Mar 2024
 Author(s): Albert <iavl@proton.me>, HenryQW <hi@henry.wang>
@@ -37,9 +37,11 @@ $$
 
 Current [description of the formula](https://github.com/RSS3-Network/Whitepaper/blob/d8a86712cad0c88846c659577e0848b422b90f14/current/sections/tokenomics/network_rewards.tex#L75):
 
-    The tax rate τ is set by the Node Operator of a Normal Node, and is applied to the Network Rewards allocated to its $P_s$.
+```
+The tax rate τ is set by the Node Operator of a Normal Node, and is applied to the Network Rewards allocated to its $P_s$.
 
-    The amount of tax collectible is capped at a maximum of $c$ times the amount of the current deposit, where $c$ is set by the Network.
+The amount of tax collectible is capped at a maximum of $c$ times the amount of the current deposit, where $c$ is set by the Network.
+```
 
 Proposed new taxation formula:
 
@@ -49,9 +51,11 @@ $$
 
 Proposed new description of the formula:
 
-    The Node Operator of a Normal Node sets the tax rate τ which is imposed on the Network Rewards allocated to its $P_s$.
+```
+The Node Operator of a Normal Node sets the tax rate τ which is imposed on the Network Rewards allocated to its $P_s$.
 
-    The amount of taxiable $R_s$ is capped at a maximum of $c$ times the amount of the current $P_o$, where $c$ is set by the Network.
+The amount of taxiable $R_s$ is capped at a maximum of $c$ times the amount of the current $P_o$, where $c$ is set by the Network.
+```
 
 Reflecting the changes in the Whitepaper, the VSL will be updated accordingly.
 The tokenomics will then be adjusted to reflect the new formula:
