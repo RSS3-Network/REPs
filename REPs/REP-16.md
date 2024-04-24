@@ -1,7 +1,7 @@
 ```
 REP: REP-16
 Title: Staking Rewards Taxation Adjustment
-Status: Draft
+Status: Review
 Type: Core
 Created: 21 Mar 2024
 Author(s): Albert <iavl@proton.me>, HenryQW <hi@henry.wang>
@@ -32,26 +32,30 @@ The proposed adjustment will simplify the taxation formula, making the computati
 Current formula as [stated in the Whitepaper](https://github.com/RSS3-Network/Whitepaper/blob/d8a86712cad0c88846c659577e0848b422b90f14/current/sections/tokenomics/network_rewards.tex#L77-L83):
 
 $$
-T_{N,\epsilon} = \min(D_{N,\epsilon} * c_{\epsilon}, (R_{S|N,\epsilon} + R_{O|N,\epsilon}) * T_{N,\epsilon})
+T_{N,\epsilon} = \min(D_{N,\epsilon} * c_{\epsilon}, (R_{S|N,\epsilon} + R_{O|N,\epsilon}) * τ_{N,\epsilon})
 $$
 
 Current [description of the formula](https://github.com/RSS3-Network/Whitepaper/blob/d8a86712cad0c88846c659577e0848b422b90f14/current/sections/tokenomics/network_rewards.tex#L75):
 
-The amount of tax collectible is capped at a maximum of $c$
-times the amount of the current deposit, where $c$ is set by the
-Network.
+```
+The tax rate τ is set by the Node Operator of a Normal Node, and is applied to the Network Rewards allocated to its $P_s$.
+
+The amount of tax collectible is capped at a maximum of $c$ times the amount of the current deposit, where $c$ is set by the Network.
+```
 
 Proposed new taxation formula:
 
 $$
-T_{N,\epsilon} = \min(P_{O|N,\epsilon} * c_{\epsilon}, (R_{S|N,\epsilon} + R_{O|N,\epsilon}) * T_{N,\epsilon})
+T_{N,\epsilon} = \min(P_{O|N,\epsilon} * c_{\epsilon}, (R_{S|N,\epsilon} + R_{O|N,\epsilon}) * τ_{N,\epsilon})
 $$
 
 Proposed new description of the formula:
 
-The amount of tax collectible is capped at a maximum of $c$
-times the amount of the current $P_o$, where $c$ is set by the
-Network.
+```
+The Node Operator of a Normal Node sets the tax rate τ which is imposed on the Network Rewards allocated to its $P_s$.
+
+The amount of taxiable $R_s$ is capped at a maximum of $c$ times the amount of the current $P_o$, where $c$ is set by the Network.
+```
 
 Reflecting the changes in the Whitepaper, the VSL will be updated accordingly.
 The tokenomics will then be adjusted to reflect the new formula:
@@ -67,6 +71,18 @@ Proposed new tokenomics intepretation:
 $$
 P_{o} * 25 \geq T_{N,\epsilon} \quad \text{where} \quad D_{N} \geq 10,000
 $$
+
+To improve the clarity on the tax rate for all Public Good Nodes, The current description of:
+
+```
+For the Public Good Pool, the tax rate is set by the Network to collect donations to support Public Good initiatives and clauses.
+```
+
+is proposed to be updated to:
+
+```
+The tax rate for all Public Good Nodes is determined by the Network. These funds are deposited into the Public Good Pool and are allocated to support various Public Good initiatives and clauses. The allocations of these resources will be collectively decided by all Network participants.
+```
 
 ## Rationale
 
