@@ -1,7 +1,7 @@
 ```
 REP: REP-11
 Title: Protocol Upgrade
-Status: Candidate
+Status: Final
 Type: Protocol
 Created: 22 Jan 2024
 Author(s): BruceXC <xichang1510@gmail.com>, HenryQW <hi@henry.wang>, KallyDev <kallydev@gmail.com>, Nya Candy <github@candinya.com>, polebug <polebugfly@gmail.com>, pseudoyu <pseudoyu@connect.hku.hk>, Thomas <73341653+naaive@users.noreply.github.com>
@@ -17,6 +17,7 @@ Discussions: <https://forum.rss3.io/t/rss3-protocol-upgrade/65>
 - [Motivation](#motivation)
 - [Specification](#specification)
 - [Rationale](#rationale)
+- [Reference Implementations](#reference-implementations)
 
 ## Abstract
 
@@ -31,7 +32,7 @@ Upgrading the RSS3 Protocol with UMS means that the Protocol will see its first 
 
 ## Specification
 
-See [RSS3 Protocol v1.0.0](https://github.com/RSS3-Network/Protocol/blob/main/versions/v1.0.0/main.adoc) for the full specification.
+See [RSS3 Protocol v1.0.0](https://github.com/RSS3-Network/Protocol/blob/a90abd3fca3e69c008890c7b39dfbee0d4e37367/versions/v1.0.0/main.adoc) for the full specification.
 
 ## Rationale
 
@@ -55,3 +56,9 @@ The UMS addresses all the problems of the RSS3 Protocol v0.4.0-rc.1:
 2. Performance - the query speed is lightning fast
 3. Storage Cost - the storage cost is much lower
 4. Interoperability - it provides a set of APIs for developers to build on top of the Protocol
+
+## Reference Implementations
+
+1. Protocol Specification: <https://github.com/RSS3-Network/Protocol/blob/a90abd3fca3e69c008890c7b39dfbee0d4e37367/versions/v1.0.0/main.adoc>
+2. Protocol-Go - A Golang implementation: <https://github.com/RSS3-Network/Protocol-Go>
+3. Node implementation with Protocol-Go <https://github.com/RSS3-Network/Node/blob/7c69c9fbd05e353c6fd5ecabf6657a772bff6282/go.mod#L58>
