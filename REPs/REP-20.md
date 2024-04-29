@@ -1,7 +1,7 @@
 ```
 REP: REP-18
 Title: Data Availability Layer Integration
-Status: Draft
+Status: Review
 Type: Core
 Created: 23 Apr 2024
 Author(s): Albert <iavl@proton.me>, HenryQW <hi@henry.wang>
@@ -16,6 +16,9 @@ Discussions: <https://forum.rss3.io/t/data-availability-layer-integration/136>
 - [Abstract](#abstract)
 - [Motivation](#motivation)
 - [Specification](#specification)
+  - [DA Solutions](#da-solutions)
+  - [Blob Space prices](#blob-space-prices)
+  - [Conclusion](#conclusion)
 - [Rationale](#rationale)
 
 ## Abstract
@@ -37,15 +40,15 @@ A brief comparison of 4 viable DA solutions that have been explored:
 | Solution | Security                         | Cost/Block | Major Advantage     | Major Drawback            |
 | -------- | -------------------------------- | ---------- | ------------------- | ------------------------- |
 | Avail    | Avail's own chain                | unknown    | unknown             | not production ready      |
-| Celestia | Celestia shared security         | ~$0.046    | ease of integration | not the cheapest solution |
-| NEAR     | On NEAR with Nightshade          | ~$0.0016   | huge blob space     | development not as active |
-| EIP-4844 | the almighty monolithic Ethereum | ~$7.73     | native DA           | expensive                 |
+| Celestia | Celestia shared security         | \~\$0.046  | ease of integration | not the cheapest solution |
+| NEAR     | On NEAR with Nightshade          | \~\$0.0016 | huge blob space     | development not as active |
+| EIP-4844 | the almighty monolithic Ethereum | \~\$7.73   | native DA           | expensive                 |
 
 ### Blob Space prices
 
 EIP-4844 as the native solution suffers from limited blob space per block (as of proto-danksharding). As more and more L2s are competing for **768kb per block** (8,192kb for full-danksharding in the future), surging activities such as ethscription minting on L2s will drive up the blob prices and increase the cost of operating the VSL. NEAR DA promises a whopping blob space of **4,096kb per transaction**, effectively circumventing such issues. This may even accelerate our experiments with different use cases that demand additional onchain storage space.
 
-In our tests, NEAR DA has shown to be the most cost-effective solution for the VSL, with a cost per block of ~$0.0054 (higher than the claim but still remains the lowest).
+In our tests, NEAR DA has shown to be the most cost-effective solution for the VSL, with a cost per block of \~\$0.0054 (higher than the claim but still remains the lowest).
 
 ### Conclusion
 
@@ -57,4 +60,4 @@ At the same time, the Whitepaper will be updated to reflect the changes.
 The proposed adjustment will reduce:
 
 1. Gas fee for all transactions taking place on the VSL.
-1. DAL-related operational cost of the VSL.
+2. DAL-related operational cost of the VSL.
