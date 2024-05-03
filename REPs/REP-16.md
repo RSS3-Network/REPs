@@ -1,7 +1,7 @@
 ```
 REP: REP-16
 Title: Staking Rewards Taxation Adjustment
-Status: Review
+Status: Candidate
 Type: Core
 Created: 21 Mar 2024
 Author(s): Albert <iavl@proton.me>, HenryQW <hi@henry.wang>
@@ -17,6 +17,7 @@ Discussions: <https://forum.rss3.io/t/rep-pending-adjusting-staking-rewards-taxa
 - [Motivation](#motivation)
 - [Specification](#specification)
 - [Rationale](#rationale)
+- [Reference Implementations](#reference-implementations)
 
 ## Abstract
 
@@ -52,7 +53,7 @@ $$
 Proposed new description of the formula:
 
 ```
-The Node Operator of a Normal Node sets the tax rate τ which is imposed on the Network Rewards allocated to its $P_s$.
+A Normal Node's operator sets the tax rate τ which is imposed on the Network Rewards allocated to its $P_s$.
 
 The amount of taxiable $R_s$ is capped at a maximum of $c$ times the amount of the current $P_o$, where $c$ is set by the Network.
 ```
@@ -94,3 +95,7 @@ The proposed adjustment will simplify the formula, without compromising the orig
 The proposed adjustment also slightly lowers the entry barrier for new Node Operators and simplifies the management of the Node.
 
 The proposed adjustment does not introduce any new development requirements, and the implementation is expected to be straightforward.
+
+## Reference Implementations
+
+1. Whitepaper: [RSS3-Network/Whitepaper#4](https://github.com/RSS3-Network/Whitepaper/pull/4)
