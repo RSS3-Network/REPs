@@ -1,7 +1,7 @@
 ```
-REP: REP-18
+REP: REP-20
 Title: Data Availability Layer Integration
-Status: Review
+Status: Candidate
 Type: Core
 Created: 23 Apr 2024
 Author(s): Albert <iavl@proton.me>, HenryQW <hi@henry.wang>
@@ -9,7 +9,7 @@ Description: This REP describes the integration of the Data Availability Layer (
 Discussions: <https://forum.rss3.io/t/data-availability-layer-integration/136>
 ```
 
-# REP-16: Data Availability Layer Integration
+# REP-20: Data Availability Layer Integration
 
 ## Table of Contents
 
@@ -20,6 +20,7 @@ Discussions: <https://forum.rss3.io/t/data-availability-layer-integration/136>
   - [Blob Space prices](#blob-space-prices)
   - [Conclusion](#conclusion)
 - [Rationale](#rationale)
+- [Reference Implementations](#reference-implementations)
 
 ## Abstract
 
@@ -61,3 +62,10 @@ The proposed adjustment will reduce:
 
 1. Gas fee for all transactions taking place on the VSL.
 2. DAL-related operational cost of the VSL.
+
+## Reference Implementations
+
+1. NEAR DA code contributions: <https://github.com/RSS3-Network/rollup-data-availability>
+2. VSL Testnet DA submissions: <https://testnet.nearblocks.io/address/vsl-submitter.testnet>
+3. VSL Mainnet DA submissions: `pending`
+4. Whitepaper Data Availability subsection update: <https://github.com/RSS3-Network/Whitepaper/pull/5>
