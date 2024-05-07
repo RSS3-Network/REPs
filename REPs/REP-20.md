@@ -1,7 +1,7 @@
 ```
 REP: REP-20
 Title: Data Availability Layer Integration
-Status: Candidate
+Status: Final
 Type: Core
 Created: 23 Apr 2024
 Author(s): Albert <iavl@proton.me>, HenryQW <hi@henry.wang>
@@ -18,7 +18,6 @@ Discussions: <https://forum.rss3.io/t/data-availability-layer-integration/136>
 - [Specification](#specification)
   - [DA Solutions](#da-solutions)
   - [Blob Space prices](#blob-space-prices)
-  - [Conclusion](#conclusion)
 - [Rationale](#rationale)
 - [Reference Implementations](#reference-implementations)
 
@@ -51,12 +50,10 @@ EIP-4844 as the native solution suffers from limited blob space per block (as of
 
 In our tests, NEAR DA has shown to be the most cost-effective solution for the VSL, with a cost per block of \~\$0.0054 (higher than the claim but still remains the lowest).
 
-### Conclusion
-
-Based on these findings, this REP proposes to integrate NEAR DA as the DAL, to leverage the advantages of NEAR DA and to align with the ongoing development of the Network.
-At the same time, the Whitepaper will be updated to reflect the changes.
-
 ## Rationale
+
+Based on the above findings, this REP proposes to integrate NEAR DA as the DAL, to leverage the advantages of NEAR DA and to align with the ongoing development of the Network.
+At the same time, the Whitepaper will be updated to reflect the changes.
 
 The proposed adjustment will reduce:
 
@@ -67,5 +64,5 @@ The proposed adjustment will reduce:
 
 1. NEAR DA code contributions: <https://github.com/RSS3-Network/rollup-data-availability>
 2. VSL Testnet DA submissions: <https://testnet.nearblocks.io/address/vsl-submitter.testnet>
-3. VSL Mainnet DA submissions: `pending`
-4. Whitepaper Data Availability subsection update: <https://github.com/RSS3-Network/Whitepaper/pull/5>
+3. VSL Mainnet DA submissions: <https://nearblocks.io/address/vsl-submitter.near>
+4. Whitepaper Data Availability subsection update: [RSS3-Network/Whitepaper#5](https://github.com/RSS3-Network/Whitepaper/pull/5)
