@@ -43,7 +43,7 @@ There are four types of REP:
 
 ![REP workflow](REP-1/REP-workflow.png)
 
-_Figure 1: REP workflow_
+*Figure 1: REP workflow*
 
 REPs have the following states:
 
