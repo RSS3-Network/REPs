@@ -6,7 +6,7 @@ Type: Core
 Created: 9 Jul 2024
 Author(s): BruceXC <xichang1510@gmail.com>
 Description: This REP describes the upgrade of the chip mechanism to simplify the staking process and enhance the user experience.
-Discussions: <Discussions: https://forum.rss3.io/t/rep-pending-chip-mechanism-upgrade/169>
+Discussions: <https://forum.rss3.io/t/rep-pending-chip-mechanism-upgrade/169>
 ```
 
 # REP-26: Chip Mechanism Upgrade
