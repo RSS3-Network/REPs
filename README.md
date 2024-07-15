@@ -12,7 +12,7 @@ This repository tracks all REPs proposed by the RSS3 Community.
 | [REP-11](./REPs/REP-11.md) | Protocol Upgrade                    | [BruceXC](mailto:xichang1510@gmail.com), [HenryQW](mailto:hi@henry.wang), [KallyDev](mailto:kallydev@gmail.com), [Nya Candy](mailto:github@candinya.com), [polebug](mailto:polebugfly@gmail.com), [pseudoyu](mailto:pseudoyu@connect.hku.hk), [Thomas](mailto:73341653+naaive@users.noreply.github.com) | Protocol | Final     |
 | [REP-16](./REPs/REP-16.md) | Staking Rewards Taxation Adjustment | [Albert](mailto:iavl@proton.me), [HenryQW](mailto:hi@henry.wang)                                                                                                                                                                                                                                        | Core     | Candidate |
 | [REP-20](./REPs/REP-20.md) | Data Availability Layer Integration | [Albert](mailto:iavl@proton.me), [HenryQW](mailto:hi@henry.wang)                                                                                                                                                                                                                                        | Core     | Final     |
-| [REP-26](./REPs/REP-26.md) | Chip Mechanism Upgrade              | [BruceXC](mailto:xichang1510@gmail.com) | Core     | Draft     |
+| [REP-26](./REPs/REP-26.md) | Chip Mechanism Upgrade              | [BruceXC](mailto:xichang1510@gmail.com) | Core     | Review     |
 
 ## License
 
