@@ -1,7 +1,7 @@
 ```
 REP: REP-26
 Title: Chip Mechanism Upgrade
-Status: Draft
+Status: Review
 Type: Core
 Created: 9 Jul 2024
 Author(s): BruceXC <xichang1510@gmail.com>
