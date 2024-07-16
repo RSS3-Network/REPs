@@ -1,7 +1,7 @@
 ```
 REP: REP-16
 Title: Staking Rewards Taxation Adjustment
-Status: Candidate
+Status: Final
 Type: Core
 Created: 21 Mar 2024
 Author(s): Albert <iavl@proton.me>, HenryQW <hi@henry.wang>

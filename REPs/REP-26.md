@@ -26,11 +26,11 @@ It is worth noting that the upgrade will not affect existing Chips in all aspect
 
 ## Motivation
 
-The current staking mechanism, which mints a Chip for each unit of $RSS3 staked based on the current Chip price, can be confusing and lead to high numbers of Chips being minted. This complexity has introduced challenges in transaction processing and data handling, which this proposal seeks to address.
+The current staking mechanism, which mints a Chip for each unit of \$RSS3 staked based on the current Chip price, can be confusing and lead to high numbers of Chips being minted. This complexity has introduced challenges in transaction processing and data handling, which this proposal seeks to address.
 
 ## Specification
 
-1. **Minting Mechanism**: A single Chip will be minted for each staking transaction, regardless of the amount of $RSS3 staked.
+1. **Minting Mechanism**: A single Chip will be minted for each staking transaction, regardless of the amount of \$RSS3 staked.
 2. **Chip Value Representation**: The Chip will embody the total value staked at the initiation of the transaction, adjusted according to the conditions at that epoch.
 3. **Value Fluctuation**: The value assigned to each Chip will fluctuate based on the network's activities and the underlying public goods or staking pool size.
 
