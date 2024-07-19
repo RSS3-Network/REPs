@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: run remark lint & format
+    name: run remark lint
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
