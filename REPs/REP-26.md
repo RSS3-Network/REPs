@@ -42,4 +42,4 @@ The core of this proposal is to reduce the number of Chips minted to one for eac
 ## Reference Implementations
 
 1. Whitepaper: [RSS3-Network/Whitepaper#7](https://github.com/RSS3-Network/Whitepaper/pull/7)
-2. RSS3-Network-Contracts code update: <https://github.com/NaturalSelectionLabs/RSS3-Network-Contracts/pull/26>
+2. RSS3-Network-Contracts code update: [NaturalSelectionLabs/RSS3-Network-Contracts#26](https://github.com/NaturalSelectionLabs/RSS3-Network-Contracts/pull/26)
