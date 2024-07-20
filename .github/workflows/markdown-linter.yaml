@@ -16,4 +16,12 @@ jobs:
           node-version-file: ".node-version"
           cache: 'pnpm'
       - run: pnpm install
-      - run: pnpm run lint
+
+      - name: Run linter
+        run: pnpm run lint
+
+      - name: Run formatter
+        run: pnpm run format
+
+      - name: Check for uncommitted changes
+        run: git diff --exit-code
