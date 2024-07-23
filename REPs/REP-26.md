@@ -42,5 +42,5 @@ The core of this proposal is to reduce the number of Chips minted to one for eac
 ## Reference Implementations
 
 1. Whitepaper:
-   i. [RSS3-Network/Whitepaper#7](https://github.com/RSS3-Network/Whitepaper/pull/7)
-   ii.[RSS3-Network/Whitepaper#8](https://github.com/RSS3-Network/Whitepaper/pull/8)
+   1. [RSS3-Network/Whitepaper#7](https://github.com/RSS3-Network/Whitepaper/pull/7)
+   2. [RSS3-Network/Whitepaper#8](https://github.com/RSS3-Network/Whitepaper/pull/8)
