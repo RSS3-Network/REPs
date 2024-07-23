@@ -19,6 +19,7 @@ Discussions: https://forum.rss3.io/t/proposal-on-node-state-transition/173
 - [Rationale](#rationale)
 
 ## Abstract
+
 This REP proposes a comprehensive set of states and their associated transitions for Node operating on the RSS3 Network.
 It establishes a structured framework for Node operations, aiming to enhance clarity, consistency, and efficiency for Node management.
 
@@ -42,7 +43,7 @@ A Node can be in 1 of the following 7 states:
 
 ### Node State Transition Path
 
-![](REP-31/node-state-transition-path.png)
+[Node State Transition Path](#node-state-transition-path)
 
 1. **Registered** → **Initializing** → **Online**: Upon registration, a Node transitions to `Registered`.  `Initializing` is the state when the Node is started. After the automatic initialization is completed, it enters `Online` state.
 2. **Registered** → (after 30 Epochs) → **Exited**: A `Registered` Node transitions to `Exited` state after 30 Epochs of inactivity.
