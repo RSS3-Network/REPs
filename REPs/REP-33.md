@@ -1,7 +1,7 @@
 ```
 REP: REP-33
 Title: Node State Transition
-Status: Draft
+Status: Review
 Type: Core
 Created: 19 Jul 2024
 Author(s): KallyDev <kallydev@rss3.io>
