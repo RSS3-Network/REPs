@@ -1,7 +1,7 @@
 ```
 REP: REP-26
 Title: Chip Mechanism Upgrade
-Status: Review
+Status: Candidate
 Type: Core
 Created: 9 Jul 2024
 Author(s): BruceXC <xichang1510@gmail.com>
@@ -17,6 +17,7 @@ Discussions: <https://forum.rss3.io/t/rep-pending-chip-mechanism-upgrade/169>
 - [Motivation](#motivation)
 - [Specification](#specification)
 - [Rationale](#rationale)
+- [Reference Implementations](#reference-implementations)
 
 ## Abstract
 
@@ -37,3 +38,9 @@ The current staking mechanism, which mints a Chip for each unit of \$RSS3 staked
 ## Rationale
 
 The core of this proposal is to reduce the number of Chips minted to one for each staking transaction, regardless of the amount staked, where each Chip will represent the total value staked.
+
+## Reference Implementations
+
+1. Whitepaper:
+   1. [RSS3-Network/Whitepaper#7](https://github.com/RSS3-Network/Whitepaper/pull/7)
+   2. [RSS3-Network/Whitepaper#8](https://github.com/RSS3-Network/Whitepaper/pull/8)
