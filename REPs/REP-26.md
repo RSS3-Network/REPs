@@ -1,7 +1,7 @@
 ```
 REP: REP-26
 Title: Chip Mechanism Upgrade
-Status: Candidate
+Status: Final
 Type: Core
 Created: 9 Jul 2024
 Author(s): BruceXC <xichang1510@gmail.com>
@@ -44,3 +44,4 @@ The core of this proposal is to reduce the number of Chips minted to one for eac
 1. Whitepaper:
    1. [RSS3-Network/Whitepaper#7](https://github.com/RSS3-Network/Whitepaper/pull/7)
    2. [RSS3-Network/Whitepaper#8](https://github.com/RSS3-Network/Whitepaper/pull/8)
+2. Upgraded contract : <https://scan.rss3.io/address/0xD16f386C79b5198a60b6e45bb818fb057f0E9324>
