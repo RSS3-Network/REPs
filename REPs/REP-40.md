@@ -34,10 +34,6 @@ This update aims to enhance clarity, correct outdated information, and ensure co
 3. update GI c.1/2/3 to match the component names, e.g, enforcer
    1. see <https://docs.rss3.io/guide/data-sublayer/global-indexer>
 
-### Section V. C.3 Updates
-
-A Chip is an ERC-721 Non-Fungible Token (NFT).
-
 ## Rationale
 
 The core of this proposal is to update the RSS3 Network Whitepaper to accurately reflect the current state of the Network. These updates focus on refining terminology, clarifying the role of Global Indexers, and providing more precise definitions. By implementing these changes, we aim to enhance the Whitepaper's accuracy and usefulness as a key reference document for the RSS3 ecosystem, ensuring it aligns with the latest developments and improvements in the Network.
