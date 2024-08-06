@@ -5,7 +5,7 @@ Status: Draft
 Type: Core
 Created: 26 Jul 2024
 Author(s): Nya Candy <dev@candinya.com>
-Description: This REP description a request billing and reward distributing cycle of Ownership Economy.
+Description: This REP describes a request billing and reward distributing cycle of Ownership Economy.
 Discussions: https://forum.rss3.io/t/rep-draft-on-request-fees/176
 ```
 
