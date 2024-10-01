@@ -38,6 +38,7 @@ This update aims to enhance clarity, correct outdated information, and ensure co
    - Settler: The settlers initiate submissions of work records to the Value Sublayer.
    - Payment Processor: The payment processors ensure request fees are correctly distributed.
    - Taxer: The taxers calculate the Network's average tax rate and update the settlement contract.
+   - Indexer: The indexer is responsible for structuring activities that take place on the entire Network, and supplying the information via network transparency API.
 
 ## Rationale
 
