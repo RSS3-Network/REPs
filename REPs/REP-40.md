@@ -29,10 +29,15 @@ This update aims to enhance clarity, correct outdated information, and ensure co
 
 ### Section III. C Updates
 
-1. The GI performs critical duties to ensure the Network is robust and reliable.
-2. change GI to GIs whenever possible
-3. update GI c.1/2/3 to match the component names, e.g, enforcer
-   1. see <https://docs.rss3.io/guide/data-sublayer/global-indexer>
+1. The GIs perform critical duties to ensure the Network is robust and reliable.
+2. GI has been changed to GIs where appropriate throughout the updates.
+3. The GI components have been updated to match the current architecture:
+   - Router: The routers ensure requests are routed and served with high performance and minimal latency.
+   - Broadcaster: The broadcasters constantly monitor all Nodes' status for irregular behaviors.
+   - Enforcer: The enforcers maintain records of demotion and slashing, and slash Nodes that fail to meet requirements.
+   - Settler: The settlers initiate submissions of work records to the Value Sublayer.
+   - Payment Processor: The payment processors ensure request fees are correctly distributed.
+   - Taxer: The taxers calculate the Network's average tax rate and update the settlement contract.
 
 ## Rationale
 
