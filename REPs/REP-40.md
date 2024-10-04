@@ -23,22 +23,7 @@ This update aims to enhance clarity, correct outdated information, and ensure co
 
 ## Specification
 
-### Section III. A Updates
-
-1. changing the term “Permisionless Data Source (PDSs)” to “Open Data Protocols (ODPs)”.
-
-### Section III. C Updates
-
-1. The GIs perform critical duties to ensure the Network is robust and reliable.
-2. GI has been changed to GIs where appropriate throughout the updates.
-3. The GI components have been updated to match the current architecture:
-   - Router: The routers ensure requests are routed and served with high performance and minimal latency.
-   - Broadcaster: The broadcasters constantly monitor all Nodes' status for irregular behaviors.
-   - Enforcer: The enforcers maintain records of demotion and slashing, and slash Nodes that fail to meet requirements.
-   - Settler: The settlers initiate submissions of work records to the Value Sublayer.
-   - Payment Processor: The payment processors ensure request fees are correctly distributed.
-   - Taxer: The taxers calculate the Network's average tax rate and update the settlement contract.
-   - Indexer: The indexer is responsible for structuring activities that take place on the entire Network, and supplying the information via network transparency API.
+This REP proposes general improvements and updates throughout the Whitepaper, with particular focus on Section III and its subsections. These changes are detailed in the associated [Pull Request](https://github.com/RSS3-Network/Whitepaper/pull/10).
 
 ## Rationale
 
