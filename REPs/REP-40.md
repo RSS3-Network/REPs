@@ -23,20 +23,7 @@ This update aims to enhance clarity, correct outdated information, and ensure co
 
 ## Specification
 
-### Section III. A Updates
-
-1. changing the term “Permisionless Data Source (PDSs)” to “Open Data Protocols (ODPs)”.
-
-### Section III. C Updates
-
-1. The GI performs critical duties to ensure the Network is robust and reliable.
-2. change GI to GIs whenever possible
-3. update GI c.1/2/3 to match the component names, e.g, enforcer
-   1. see <https://docs.rss3.io/guide/data-sublayer/global-indexer>
-
-### Section V. C.3 Updates
-
-A Chip is an ERC-721 Non-Fungible Token (NFT).
+This REP proposes general improvements and updates throughout the Whitepaper, with particular focus on Section III and its subsections. These changes are detailed in the associated [Pull Request](https://github.com/RSS3-Network/Whitepaper/pull/10).
 
 ## Rationale
 
