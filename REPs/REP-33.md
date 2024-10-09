@@ -1,10 +1,10 @@
 ```
 REP: REP-33
 Title: Node State Transition
-Status: Draft
+Status: Final
 Type: Core
 Created: 19 Jul 2024
-Author(s): KallyDev <kallydev@rss3.io>
+Author(s): KallyDev <kallydev@rss3.io>, BruceXC <xichang1510@gmail.com>
 Description: This REP outlines every potential Node state and the transitions between them.
 Discussions: https://forum.rss3.io/t/proposal-on-node-state-transition/173
 ```
@@ -17,6 +17,7 @@ Discussions: https://forum.rss3.io/t/proposal-on-node-state-transition/173
 - [Motivation](#motivation)
 - [Specification](#specification)
   - [Node State Transition Path](#node-state-transition-path)
+  - [Reward Mechanism](#reward-mechanism)
 - [Rationale](#rationale)
 
 ## Abstract
@@ -32,32 +33,40 @@ Clear definitions and guidelines will support the Network's current functionalit
 
 ## Specification
 
-A Node can be in 1 of the following 7 states:
+A Node can exist in one of the following 10 states:
 
-1. **Registered**: The Node is registered on the VSL with a sufficient deposit.
-2. **Initializing**: The Node is operating on the DSL. Automated tasks will be executed at this stage to ensure the Node is in a healthy condition. This state applies to the initial startup or the first startup following any change in the Node’s coverage.
-3. **Online**: The Node is operational and actively participating in network activities.
-4. **Offline**: The Node is not operational and not participating in network activities.
-5. **Exiting**: The Node is in the process of exiting the Network.
-6. **Exited**: The Node has successfully exited the Network.
-7. **Slashed**: The Node has been slashed due to a violation of network rules or malicious behavior.
+1. **None**: The initial state of a Node.
+2. **Registered**: The Node has been registered on the VSL with a sufficient deposit.
+3. **Initializing**: The Node is operating on the DSL. Automated tasks will be executed at this stage to ensure the Node is in a healthy condition. This state applies to the
+   initial startup or the first startup following any change in the Node’s coverage.
+4. **Outdated**: The Node's version does not meet the minimum requirement.
+5. **Online**: The Node is operational and actively participating in network activities.
+6. **Offline**: The Node is non-operational and not participating in network activities.
+7. **Exiting**: The Node is in the process of exiting the Network.
+8. **Exited**: The Node has successfully exited the Network.
+9. **Slashing**: The Node is about to be penalized for violating network rules or engaging in malicious behavior. It has a 3-epoch appeal period.
+10. **Slashed**: The Node has been penalized due to a violation of network rules or malicious behavior.
 
 ### Node State Transition Path
 
 ![Node State Transition Path](REP-33/node-state-transition-path.png)
 
-1. **Registered** → **Initializing** → **Online**: Upon registration, a Node transitions to `Registered`.  `Initializing` is the state when the Node is started. After the automatic initialization is completed, it enters `Online` state.
-2. **Registered** → (after 30 Epochs) → **Exited**: A `Registered` Node transitions to `Exited` state after 30 Epochs of inactivity.
-3. **Online** → (current Epoch) → **Exiting**: An `Online` Node transitions to `Exiting` state upon announcing its intention to exit.
-4. **Exiting** → (waiting period) → **Exited**: An `Exiting` Node transitions to `Exited` state after completing the waiting period.
-5. **Exiting** → **Slashed**: An `Exiting` Node transitions to `Slashed` state if it prematurely exits during the waiting period.
-6. **Online** → (current Epoch) → **Offline**: An `Online` Node transitions to `Offline` state immediately within the same epoch if its Operation Pool drops below the required threshold.
-7. **Online** → (current Epoch) → **Slashed**: An `Online` Node transitions to `Slashed` state immediately within the same epoch if it is slashed.
-8. **Slashed** → (next Epoch) → **Offline**: A `Slashed` Node transitions to `Offline` state in the next epoch if the Operator fails to manually re-online it by the end of the current epoch.
-9. **Slashed** → (next Epoch) → **Online**: A `Slashed` Node transitions to `Online` state in the next epoch if the Operator manually re-online it by the end of the current epoch.
-10. **Offline** → (next Epoch) → **Online**: An `Offline` Node transitions to `Online` state in the next epoch if the Operator manually re-online it by the end of the current epoch.
-11. **Offline** →(after 30 Epochs) → **Exited**: An `Offline` Node transitions to `Exited` state after 30 Epochs of inactivity.
+1. **None** → **Registered**: A `None` Node transitions to `Registered` state upon meeting the minimum deposit requirement.
+2. **Registered** → **Initializing**: Upon registration, a Node transitions to `Registered`. `Initializing` is the state when the Node has started and is indexing data, but has not yet completed the process.
+3. **Registered** → **Outdated**: A `Registered` Node transitions to `Outdated` state when the Node is started and its version does not meet the minimum requirement.
+4. **Registered**, **Outdated**, **Initializing**, **Slashed** → (anytime) → **Exited**: When a Node is in any of the `Registered`, `Outdated`, `Initializing`, or `Slashed` states, if the operator chooses to exit, the Node immediately enters the `Exited` state.
+5. **Initializing** → (next Epoch) → **Online**: After the automatic initialization is completed, it enters `Online` state at the next epoch.
+6. **Online** → (current Epoch) → **Exiting**: An `Online` Node transitions to `Exiting` state upon announcing its intention to exit.
+7. **Exiting** → (waiting period) → **Exited**: An `Exiting` Node transitions to `Exited` state after completing the waiting period.
+8. **Online**, **Exiting** → **Slashing**: An `Online` or `Exiting` Node transitions to `Slashing` state if its demotion count reaches the threshold. The operator can appeal within 3 epochs.
+9. **Online**, **Exiting** → (current Epoch) → **Offline**: An `Online` or `Exiting` Node transitions to `Offline` state immediately within the same epoch if the Node is detected to be unavailable.
+10. **Offline**, **Slashed** → (current Epoch) → **Initializing**: An `Offline` or `Slashed` Node transitions to `Initializing` state if the Operator manually brings it back online.
+11. **Slashing** → (after 3 epochs) → **Slashed**: A `Slashing` Node transitions to `Slashed` state after 3 epochs.
 12. **Exited** → (anytime) → **Registered**: An `Exited` Node can re-register at any time.
+
+### Reward Mechanism
+
+Only nodes in `Online`, `Initializing`, or `Exiting` states can provide services normally. Therefore, only nodes in these states can receive rewards.
 
 ## Rationale
 
