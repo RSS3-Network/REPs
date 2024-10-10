@@ -66,7 +66,7 @@ A Node can exist in one of the following 10 states:
 
 ### Reward Mechanism
 
-Only nodes in `Online`, `Initializing`, or `Exiting` states can provide services normally. Therefore, only nodes in these states can receive rewards.
+Nodes in `Online`, `Initializing`, or `Exiting` states can provide services and receive rewards. Other states are ineligible.
 
 ## Rationale
 
