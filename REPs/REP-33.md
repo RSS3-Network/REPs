@@ -70,5 +70,5 @@ Nodes in `Online`, `Initializing`, or `Exiting` states can provide services and 
 
 ## Rationale
 
-The core of this proposal is aim to standardize Node states, improve clarity, and simplify maintenance.
+The core of this proposal aims to standardize Node states, improve clarity, and simplify maintenance.
 This proposal will ensure consistent operations across the Network, enable efficient troubleshooting, and provide a solid foundation for future enhancements.
