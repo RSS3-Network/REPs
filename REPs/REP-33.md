@@ -62,7 +62,7 @@ A Node can exist in one of the following 10 states:
 
 ### Reward Mechanism
 
-Nodes in `Online`, `Initializing`, or `Exiting` states are eligible to provide services and receive rewards. Nodes in other states are ineligible.
+Nodes in `Online`, `Initializing`, `Slashing` or `Exiting` states are eligible to provide services and receive rewards. Nodes in other states are ineligible.
 
 ## Rationale
 
