@@ -18,6 +18,14 @@ This repository tracks all REPs proposed by the RSS3 Community.
 | [REP-40](./REPs/REP-40.md) | Whitepaper Updates                             | [pseudoyu](mailto:pseudoyu@connect.hku.hk)                                                                                                                                                                                                                                                              | Core     | Review    |
 | [REP-43](./REPs/REP-43.md) | Introducing Payment Processor for Request Fees | [Nya Candy](mailto:dev@candinya.com)                                                                                                                                                                                                                                                                    | Core     | Review    |
 
+## Submit an REP
+
+1. Fork the repository by clicking the "Fork" button in the top right, then clone your fork.
+1. Duplicate `REPs/REP-Template.md` and rename it to `REPs/REP-XXXX.md` (where `XXXX` is the next available Pull Request number).
+1. Fill in the REP template with your proposal, remember to add links to relevant discussions on the RSS3 Forum.
+1. Run `npm run format`.
+1. Submit a Pull Request to RSS3 Network's `main` branch.
+
 ## License
 
 RSS3 Evolution Proposals are collectively maintained by the RSS3 Community. All work under this repository is marked with [CC0 1.0](./LICENSE).
