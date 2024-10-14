@@ -1,7 +1,7 @@
 ```
 REP: 40
 Title: Whitepaper Updates
-Status: Draft
+Status: Candidate
 Type: Core
 Created: 30 Jul 2024
 Author(s): pseudoyu <pseudoyu@connect.hku.hk>
@@ -30,3 +30,8 @@ This REP proposes general improvements and updates throughout the Whitepaper, wi
 The core of this proposal is to update the RSS3 Network Whitepaper to accurately reflect the current state of the Network. These updates focus on refining terminology, clarifying the role of Global Indexers, and providing more precise definitions. By implementing these changes, we aim to enhance the Whitepaper's accuracy and usefulness as a key reference document for the RSS3 ecosystem, ensuring it aligns with the latest developments and improvements in the Network.
 
 And this is an informational REP which requires no code changes and has no empirical impact on anything.
+
+## Reference Implementations
+
+1. [RSS3-Network/Whitepaper#10](https://github.com/RSS3-Network/Whitepaper/pull/10)
+2. [RSS3-Network/Whitepaper#11](https://github.com/RSS3-Network/Whitepaper/pull/11)
