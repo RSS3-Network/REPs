@@ -21,10 +21,10 @@ This repository tracks all REPs proposed by the RSS3 Community.
 ## Submit an REP
 
 1. Fork the repository by clicking the "Fork" button in the top right, then clone your fork.
-1. Duplicate `REPs/REP-Template.md` and rename it to `REPs/REP-XXXX.md` (where `XXXX` is the next available Pull Request number).
-1. Fill in the REP template with your proposal, remember to add links to relevant discussions on the RSS3 Forum.
-1. Run `npm run format`.
-1. Submit a Pull Request to RSS3 Network's `main` branch.
+2. Duplicate `REPs/REP-Template.md` and rename it to `REPs/REP-XXXX.md` (where `XXXX` is the next available Pull Request number).
+3. Fill in the REP template with your proposal, remember to add links to relevant discussions on the RSS3 Forum.
+4. Run `npm run format`.
+5. Submit a Pull Request to RSS3 Network's `main` branch.
 
 ## License
 
