@@ -1,7 +1,7 @@
 ```
 REP: REP-33
 Title: Node State Transition
-Status: Review
+Status: Candidate
 Type: Core
 Created: 19 Jul 2024
 Author(s): KallyDev <kallydev@rss3.io>, BruceXC <xichang1510@gmail.com>
@@ -19,6 +19,7 @@ Discussions: https://forum.rss3.io/t/proposal-on-node-state-transition/173
   - [Node State Transition Path](#node-state-transition-path)
   - [Reward Mechanism](#reward-mechanism)
 - [Rationale](#rationale)
+- [Reference Implementations](#reference-implementations)
 
 ## Abstract
 
@@ -67,3 +68,7 @@ Nodes in `Online`, `Initializing`, `Slashing` or `Exiting` states are eligible t
 ## Rationale
 
 The core objective of this proposal is to standardize Node states, improve clarity, and simplify maintenance. This proposal will ensure consistent operations across the Network, enable efficient troubleshooting, and provide a solid foundation for future enhancements.
+
+## Reference Implementations
+
+1. Upgraded contract : <https://scan.rss3.io/address/0x1FF6c3BC97841a3DF41e51Fc19223252ba373728>
