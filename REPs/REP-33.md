@@ -1,7 +1,7 @@
 ```
 REP: REP-33
 Title: Node State Transition
-Status: Candidate
+Status: Final
 Type: Core
 Created: 19 Jul 2024
 Author(s): KallyDev <kallydev@rss3.io>, BruceXC <xichang1510@gmail.com>
@@ -72,3 +72,4 @@ The core objective of this proposal is to standardize Node states, improve clari
 ## Reference Implementations
 
 1. Upgraded contract : <https://scan.rss3.io/address/0x1FF6c3BC97841a3DF41e51Fc19223252ba373728>
+2. Global Indexer implementation : [RSS3-Network/Global-Indexer#383](https://github.com/RSS3-Network/Global-Indexer/pull/383)
