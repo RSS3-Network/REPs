@@ -1,7 +1,7 @@
 ```
 REP: REP-38
 Title: Demotion and Slashing Mechanism
-Status: Draft
+Status: Review
 Type: Core
 Created: 23 Jul 2024
 Author(s): polebug <polebugfly@gmail.com>
@@ -58,7 +58,7 @@ An Enforcer is introduced as a component of GIs in this proposal, it manages dem
 
 And here is a figure to assist in the understanding of cross-validation. `-1` leads to a demotion.
 
-![3 responses \[r1,r2,r3\].png](REP-38%2F3%20responses%20%5Br1%2Cr2%2Cr3%5D.png)
+![3 responses [r1,r2,r3].png](REP-38%2F3%20responses%20%5Br1%2Cr2%2Cr3%5D.png)
 
 # **Rationale**
 
