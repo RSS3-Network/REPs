@@ -54,11 +54,11 @@ An Enforcer is introduced as a component of GIs in this proposal, it manages dem
 
    Here is a figure showing what happens during an Epoch. The figure might be helpful for illustrating the Enforcer’s logic regarding slashing.
 
-![RSS3 Mainnet Diagrams (1).png](REP-38%2FRSS3%20Mainnet%20Diagrams%20%281%29.png)
+![Epoch workflow](REP-38/epoch-workflow.png)
 
 And here is a figure to assist in the understanding of cross-validation. `-1` leads to a demotion.
 
-![3 responses [r1,r2,r3].png](REP-38%2F3%20responses%20%5Br1%2Cr2%2Cr3%5D.png)
+![3 responses](REP-38/3-responses.png)
 
 # **Rationale**
 
