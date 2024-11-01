@@ -1,7 +1,7 @@
 ```
 REP: 40
 Title: Whitepaper Updates
-Status: Candidate
+Status: Final
 Type: Core
 Created: 30 Jul 2024
 Author(s): pseudoyu <pseudoyu@connect.hku.hk>
