@@ -44,34 +44,34 @@ Where:
 - $E_i$ is the stability score of Node $i$.
 
 $$
-R_i = \frac{\text{valid\_count}_i}{\max(\text{valid\_count})} - \alpha \cdot \frac{\text{invalid\_count}_i}{\max(\text{invalid\_count})}
+R_i = \frac{\text{valid_count}_i}{\max(\text{valid_count})} - \alpha \cdot \frac{\text{invalid_count}_i}{\max(\text{invalid_count})}
 $$
 
 where:
 
-- $\text{valid\_count}_i$ is the valid request count of Node $i$.
-- $\text{invalid\_count}_i$ is the potential invalid request count of Node $i$.
+- $\text{valid_count}_i$ is the valid request count of Node $i$.
+- $\text{invalid_count}_i$ is the potential invalid request count of Node $i$.
 - $\alpha$ is a constant factor, representing the weight of the invalid request count.
 
 $$
-D_i = \beta_1 \cdot \frac{\text{network\_count}_i}{\max(\text{network\_count})} + \beta_2 \cdot \frac{\text{worker\_count}_i}{\max(\text{worker\_count})} + \beta_3 \cdot \frac{\text{activity\_count}_i}{\max(\text{activity\_count})}
+D_i = \beta_1 \cdot \frac{\text{network_count}_i}{\max(\text{network_count})} + \beta_2 \cdot \frac{\text{worker_count}_i}{\max(\text{worker_count})} + \beta_3 \cdot \frac{\text{activity_count}_i}{\max(\text{activity_count})}
 $$
 
 where:
 
-- $\text{network\_count}_i$ is the number of supported networks of Node $i$.
-- $\text{worker\_count}_i$ is the worker count of Node $i$.
-- $\text{activity\_count}_i$ is the activity count of Node $i$.
+- $\text{network_count}_i$ is the number of supported networks of Node $i$.
+- $\text{worker_count}_i$ is the worker count of Node $i$.
+- $\text{activity_count}_i$ is the activity count of Node $i$.
 - $\beta_1$, $\beta_2$, $\beta_3$ are the weights of the three factors, and $\beta_1 + \beta_2 + \beta_3 = 1$.
 
 $$
-E_i = \gamma_1 \cdot \frac{\text{uptime}_i}{\max(\text{uptime})} + \gamma_2 \cdot \text{version\_score}_i
+E_i = \gamma_1 \cdot \frac{\text{uptime}_i}{\max(\text{uptime})} + \gamma_2 \cdot \text{version_score}_i
 $$
 
 where:
 
 - $\text{uptime}_i$ is the continuous uptime of Node $i$.
-- $\text{version\_score}_i = 1$ if the node uses the latest version, otherwise $0$.
+- $\text{version_score}_i = 1$ if the node uses the latest version, otherwise $0$.
 - $\gamma_1$, $\gamma_2$ are the weights of the two factors, and $\gamma_1 + \gamma_2 = 1$.
 
 ## Rationale
